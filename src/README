@@ -1,0 +1,28 @@
+Interface library for Astral data flows
+
+libastral-0.5 is the beta version with limited functionality, don't expect
+something too much from it. Also BEWARE of BUGS!
+
+I. Installation
+---------------
+1. Ungzip 
+and untar
+2. Install it with command: make all
+3. Run test command astral_test
+
+II. Usage
+---------
+To connect with the Astral world use it's API top-level functions:
+
+struct portal* astral_open();
+int astral_close(struct portal *p);
+int astral_listen(struct portal *p, char *voice_divine);
+
+as it shown in astral_test.c sample program. For details of struct portal
+see libastral.h file.
+
+Any questions and comments send to my e-mail: zmey20000@yahoo.com
+
+Best regards, 
+Mike
+

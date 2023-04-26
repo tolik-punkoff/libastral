@@ -1,0 +1,5 @@
+07.10.2008 - libastral-0.2 -	First public release
+07.10.2008 - libastral-0.3 -	Fixed lowcase at the first letter of sentance
+12.10.2008 - libastral-0.4 -	Fixed bug with double "\n" at the end of VOICE_STYLE_BIBLE paragraph
+13.10.2008 - libastral-0.5 - 	Annoying segfaults were fixed, thanx Ivan Borzenkov <ivan1986@list.ru>
+
